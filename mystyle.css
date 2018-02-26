@@ -1,25 +1,26 @@
 body
 {
-	background-image: url("images/twinkling-stars.gif");
+	background-image: url("twinkling-stars.gif");
 	background-color: navy;
 	color: black;
+	font-family: "Times New Roman", sans-serif;
 }
 
 /*In the case that the background image does not work, navy is the default background color*/
 
 h1
 {
-    text-align: center;
-    color: black;
+	text-align: center;
+	color: black;
 	font-size: 400%;
 	padding-top: 3%;
 }
 
 h2
 {
-    text-align: center;
-    color: black;
-    font-size: 300%;
+	text-align: center;
+    	color: black;
+	font-size: 300%;
 	padding-top: 3%;
 }
 
@@ -47,14 +48,14 @@ h5
 	padding-top: 3%;
 }
 
-/*Padding-top gives a nice space between the headings and previous content*/
+/*Padding-top gives a nice space between the headings and previous content. Black colour for heading for colour scheme*/
+
 p
 {
-    text-align: justify;
+	text-align: justify;
 	font-size: 140%;
-	font-family: "Times New Roman", sans-serif;
 	line-height: 175%;
-    margin: auto;
+	margin: auto;
 	padding-bottom: 3%;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -197,7 +198,7 @@ table, tr, th, td
 .topnav 
 {
 	overflow: hidden;
-	background: url("images/star.gif");
+	background: url("star.gif");
 }
 
 .topnav a
@@ -215,13 +216,13 @@ table, tr, th, td
 
 .topnav a:hover 
 {
-	background: url("images/star.gif");
+	background: url("star.gif");
 	color: white;
 }
 
 .topnav a.active 
 {
-	background: url("images/star.gif");
+	background: url("star.gif");
 	color: white;
 }
 
