@@ -1,62 +1,61 @@
-
 body
 {
-	background-image: url("twinkling-stars.gif");
+	background-image: url("images/twinkling-stars.gif");
 	background-color: navy;
 	color: black;
 }
+
 /*In the case that the background image does not work, navy is the default background color*/
 
 h1
 {
-  	text-align: center;
-    	color: black;
+    text-align: center;
+    color: black;
 	font-size: 400%;
 	padding-top: 3%;
 }
 
 h2
 {
-   	text-align: center;
-    	color: black;
-    	font-size: 300%;
-	padding-top: 5%;
+    text-align: center;
+    color: black;
+    font-size: 300%;
+	padding-top: 3%;
 }
 
 h3
 {
-	text-align: center;
+	padding-left: 5%;
 	color: black;
-	font-size: 250%;
-	padding-top: 5%;
+	font-size: 225%;
+	padding-top: 3%;
 }
 
 h4
 {
-	text-align: center;
+	padding-left: 5%;
 	color: black;
-	font-size: 200%;
-	padding-top: 5%;
+	font-size: 175%;
+	padding-top: 3%;
 }
 
 h5
 {
-	text-align: left;
+	padding-left: 5%;
 	color: black;
-	font-size: 175%;
-	padding-top: 5%;
+	font-size: 125%;
+	padding-top: 3%;
 }
 
 /*Padding-top gives a nice space between the headings and previous content*/
 p
 {
-    	text-align: justify;
-	font-size: 120%;
+    text-align: justify;
+	font-size: 140%;
 	font-family: "Times New Roman", sans-serif;
 	line-height: 175%;
-	border: 1px solid white;
-    	margin: 0 auto;
-	padding-bottom: 2%;
+    margin: auto;
+	padding-bottom: 3%;
 	padding-left: 5%;
 	padding-right: 5%;
 }
@@ -112,40 +111,118 @@ img
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 15px;
-	width: 50%;
+	margin-bottom: 3%;
+	border: 9px solid lightgray;
 }
-/* For centered images, check back again*/
+/*For centered images with borders*/
+
+.noborder
+{	
+	border: 0px;
+}
+/*imgs without borders*/
+
+figcaption
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 125%;
+	color: navy;
+}
+
+/*Shares attributes with img so they align. Navy is to distinguish caption from regular text. */
+/*Class special fig is for 2 figure captions under the same img. Margin-bottom is added so it separates cpation from paragraphs below*/
+
+table, tr, th, td
+{
+	font-size: 120%;
+	margin-left: 35%;
+	border: 1px solid black;
+}
+
+/* The colour classes below are for the table. The table shows information on colour, colour classes were added as a visual aid*/ 
+
+.red 
+{
+	color: red;
+}
+
+.orange-red
+{
+	color: RGB(255, 63, 52)
+}
+
+.orange
+{
+	color: orange;
+}
+
+.yellow
+{
+	color: yellow;
+}
+
+.yellow-white
+{
+	color: RGB(255, 239, 170);
+}
+
+.white
+{
+	color: gray;
+}
+
+.blue
+{
+	color: teal;
+}
+
+#toplink
+{
+	color: gray;
+	text-align: center;
+	font-size: 100%;
+}
+	
+#whitetext
+{
+	color: white;
+	font-size: 150%;
+}
+
+/*The ID above is for return to above text. Since the background is black, it needs to be white text.*/
 
 .topnav 
 {
-  overflow: hidden;
-  background: url("star.gif");
+	overflow: hidden;
+	background: url("images/star.gif");
 }
 
 .topnav a
  {
-  float: left;
-  color: white;
-  text-align: center;
-  margin-left: 15%;
-  margin-bottom: 5%;
-  text-decoration: none;
-  font-size: 200%;
+	float: left;
+	color: white;
+	text-align: center;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	text-decoration: none;
+	font-size: 200%;
 }
 
 /*margin-left is so that buttons won't be close to each other and look like the same link*/
 
 .topnav a:hover 
 {
-  background: url("star.gif");
-  color: white;
+	background: url("images/star.gif");
+	color: white;
 }
 
 .topnav a.active 
 {
-  background: url("star.gif");
-  color: white;
+	background: url("images/star.gif");
+	color: white;
 }
 
 
